@@ -16,8 +16,9 @@ function App() {
 
     try {
       // Connect to your Python Backend
-      const response = await axios.post('http://127.0.0.1:8000/search', {
-        query: query
+      const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+      const response = await axios.post(`${API_URL}/search`, {
+          query: query
       });
       setResults(response.data);
     } catch (err) {
