@@ -1,0 +1,15 @@
+# For the API
+fastapi 
+uvicorn
+
+# To talk to PostgreSQL and handle vectors
+psycopg2-binary
+pgvector
+
+# The AI model that turns text into math
+sentence-transformers
+
+# To handle the data.
+pandas
+python-dotenv
+numpy
