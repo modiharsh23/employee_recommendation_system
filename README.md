@@ -4,7 +4,7 @@ An intelligent search engine that uses **Natural Language Processing (NLP)** and
 
 Unlike keyword matching, this system understands *context*. Searching for "Marketing expert" will return candidates with "SEO" or "Content Strategy" skills even if the exact word "Marketing" isn't present.
 
-![Project Demo](employee-recommender-nlp/demo_screenshot.png)
+![Project Demo](demo_screenshot.png)
 
 ## 🛠️ Tech Stack
 * **Backend:** Python, FastAPI
